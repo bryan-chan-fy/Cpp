@@ -14,7 +14,7 @@ using std::endl;
 BS_Stock::BS_Stock(double Spot_,double r_, double Sigma_,double Expiry_):Spot(Spot_),r(r_),Sigma(Sigma_),Expiry(Expiry_)
 {}
 
-// method
+// methods
 double BS_Stock::GetStockPrice()
 {
     double StockPrice;
